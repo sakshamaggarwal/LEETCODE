@@ -3,7 +3,7 @@ public:
     string addBinary(string a, string b) {
         
         string c="";
-      //  c='0';
+     
         int x,y,k=0,pos=0;
         x=a.size();
         y=b.size();
@@ -72,7 +72,7 @@ public:
                 }
            pos++;
             
-            cout<<c<<endl;
+           
             
         }
         if(k==1)
